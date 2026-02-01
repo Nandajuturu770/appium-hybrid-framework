@@ -29,7 +29,7 @@ public class HomeTests extends BaseTest {
 		this.password = BaseTest.password;
 		loginScreen = new LoginScreen(this.driver);
 		homeScreen = new HomeScreen(this.driver);
-		loginScreen.loginIntoApplication("8147740413", "111111");
+		loginScreen.loginIntoApplication(username, password);
 	}
 
 	@Test(priority = 0,description = "Verify user is able to see all recent activities in recent activity view all.")
