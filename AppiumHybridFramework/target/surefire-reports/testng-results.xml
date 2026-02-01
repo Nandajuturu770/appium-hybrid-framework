@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Execution environment : uat and platform : android]]>
+    </line>
+    <line>
+      <![CDATA[appPackage : com.app.smartdigibook and appActivity : com.app.smartdigibook.ui.activity.splash.SplashActivity]]>
+    </line>
+    <line>
+      <![CDATA[username : 7777777733 and password : 777777]]>
+    </line>
+    <line>
+      <![CDATA[System is trying to lauching the application]]>
+    </line>
+    <line>
+      <![CDATA[Automation engine is trying to lauching application with these capabilities :Capabilities {appium:appActivity: com.app.smartdigibook.ui.ac..., appium:appPackage: com.app.smartdigibook, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emulator, appium:noReset: true, appium:udid: emulator-5554, platformName: ANDROID}]]>
+    </line>
+    <line>
+      <![CDATA[After creating instance of android AndroidDriver:  on ANDROID (684ae271-fb03-48dd-82cc-e00ade6b7e16)]]>
+    </line>
+    <line>
+      <![CDATA[launing the apploication]]>
+    </line>
+    <line>
+      <![CDATA[System is trying to tear down the driver AndroidDriver:  on ANDROID (684ae271-fb03-48dd-82cc-e00ade6b7e16)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-23T11:24:01 IST" name="Suite" finished-at="2026-01-23T11:33:27 IST" duration-ms="566588">
+    <groups>
+    </groups>
+    <test started-at="2026-01-23T11:24:01 IST" name="Smoke Suite" finished-at="2026-01-23T11:33:27 IST" duration-ms="566588">
+      <class name="test_class.LoginTests">
+        <test-method is-config="true" signature="getConfig(java.lang.String,java.lang.String)[pri:0, instance:test_class.LoginTests@4a003cbe]" started-at="2026-01-23T11:24:01 IST" name="getConfig" finished-at="2026-01-23T11:24:01 IST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execution environment : uat and platform : android]]>
+            </line>
+            <line>
+              <![CDATA[appPackage : com.app.smartdigibook and appActivity : com.app.smartdigibook.ui.activity.splash.SplashActivity]]>
+            </line>
+            <line>
+              <![CDATA[username : 7777777733 and password : 777777]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test_class.LoginTests@4a003cbe]" started-at="2026-01-23T11:24:01 IST" name="setup" finished-at="2026-01-23T11:24:16 IST" duration-ms="15584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[System is trying to lauching the application]]>
+            </line>
+            <line>
+              <![CDATA[Automation engine is trying to lauching application with these capabilities :Capabilities {appium:appActivity: com.app.smartdigibook.ui.ac..., appium:appPackage: com.app.smartdigibook, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emulator, appium:noReset: true, appium:udid: emulator-5554, platformName: ANDROID}]]>
+            </line>
+            <line>
+              <![CDATA[After creating instance of android AndroidDriver:  on ANDROID (684ae271-fb03-48dd-82cc-e00ade6b7e16)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:test_class.LoginTests@4a003cbe]" started-at="2026-01-23T11:24:16 IST" name="initialization" finished-at="2026-01-23T11:24:17 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="lauchingApplication()[pri:0, instance:test_class.LoginTests@4a003cbe]" started-at="2026-01-23T11:24:17 IST" name="lauchingApplication" description="Verify user is able to login into appliation with valid creadentials" finished-at="2026-01-23T11:33:25 IST" duration-ms="547924" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/txtLoginYourAccount}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/imgCountry}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/textViewselectedCountry}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/edtYourMobileNumber}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/txtCodePin}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/pinViewCode}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/btnLogin}) element is not found.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/txtLoginYourAccount}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/imgCountry}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/textViewselectedCountry}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/edtYourMobileNumber}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/txtCodePin}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/pinViewCode}) element is not found.,
+Located by By.chained({AppiumBy.id: com.app.smartdigibook:id/btnLogin}) element is not found.
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at actions.ActionsHelper.callAssertAll(ActionsHelper.java:22)
+at repository.LoginScreen.callAssertAll(LoginScreen.java:208)
+at test_class.LoginTests.lauchingApplication(LoginTests.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[launing the apploication]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lauchingApplication -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test_class.LoginTests@4a003cbe]" started-at="2026-01-23T11:33:27 IST" name="teardown" finished-at="2026-01-23T11:33:27 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[System is trying to tear down the driver AndroidDriver:  on ANDROID (684ae271-fb03-48dd-82cc-e00ade6b7e16)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test_class.LoginTests -->
+    </test> <!-- Smoke Suite -->
+  </suite> <!-- Suite -->
+</testng-results>

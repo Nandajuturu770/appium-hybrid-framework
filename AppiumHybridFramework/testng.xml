@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="environment" value="uat" />
+	<parameter name="platformName" value="Android" />
+	<parameter name="platformVersion" value="16" />
+	<parameter name="deviceName" value="Emulator" />
+	<parameter name="udid" value="emulator-5554" />
+	<listeners>
+		<listener class-name="generic.TestListener" />
+	</listeners>
+	<test name="Regression Suite" enabled="true">
+		<classes>
+			<class name="test_classes.HomeTests" />
+		</classes>
+	</test>
+	<test name="Smoke Suite" enabled="true">
+		<classes>
+			<class name="test_classes.LoginTests" />
+		</classes>
+	</test>
+</suite>

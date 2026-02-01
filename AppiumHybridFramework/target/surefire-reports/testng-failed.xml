@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="environment" value="uat"/>
+  <parameter name="platformVersion" value="16"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="udid" value="emulator-5554"/>
+  <parameter name="deviceName" value="Emulator"/>
+  <test thread-count="5" name="Smoke Suite(failed)" verbose="0">
+    <classes>
+      <class name="test_class.LoginTests">
+        <methods>
+          <include name="initialization"/>
+          <include name="lauchingApplication"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getConfig"/>
+        </methods>
+      </class> <!-- test_class.LoginTests -->
+    </classes>
+  </test> <!-- Smoke Suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
